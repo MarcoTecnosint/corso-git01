@@ -1,0 +1,11 @@
+#Questo è un commento
+#Questo file permette di gestire le esclusioni
+#
+#Se il nome corrisponde ad una cartella, sto escludendo l'intera cartella
+dir02
+#il percors è relativo 
+dir01/ignorare01.txt
+#regola creata con i caratteri jolly
+ignorare*.txt
+#esclusisone ripetto ad una regola precedente
+!ignorare02*.txt
